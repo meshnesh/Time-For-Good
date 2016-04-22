@@ -1466,4 +1466,46 @@ body {
 }
 
 
+/*HEADER FOR ROOMS*/
+
+#main-header {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: fixed;
+    z-index: 3;
+    width: 100%;
+    height: 100px;
+    padding: 0 2em;
+    font-family: Oswald;
+    font-weight: 700;
+    color: #292929;
+    background: #ecf0f1;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+}
+
+#main-header h1 {
+    margin: 0;
+    font-size: 3rem;
+}
+
+
+/*END OF HEADER ROOMS*/
+
+
 /*******END OF ALL ROOMS CODE*********/
