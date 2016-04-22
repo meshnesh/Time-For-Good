@@ -1468,7 +1468,11 @@ body {
 
 /*HEADER FOR ROOMS*/
 
-#main-header {
+
+/*#main-header {*/
+
+
+/*
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -1488,7 +1492,8 @@ body {
     z-index: 3;
     width: 100%;
     height: 100px;
-    padding: 0 2em;
+    padding: 2%;
+    clear: both;
     font-family: Oswald;
     font-weight: 700;
     color: #292929;
@@ -1498,6 +1503,7 @@ body {
     border-right: 0;
     border-top: 0;
 }
+*/
 
 #main-header h1 {
     margin: 0;
