@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d540d7b-63cf-45f1-9e29-6c93d4ace01d" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/all-rooms.html" afterPath="$PROJECT_DIR$/all-rooms.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/app.css" afterPath="$PROJECT_DIR$/css/app.css" />
     </list>
     <ignored path="Time-For-Good.iws" />
@@ -33,11 +34,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="all-rooms.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/all-rooms.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="42" column="42" selection-start-line="42" selection-start-column="42" selection-end-line="42" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="app.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/app.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-559">
-              <caret line="566" column="4" selection-start-line="566" selection-start-column="4" selection-end-line="566" selection-end-column="4" />
+            <state relative-caret-position="671">
+              <caret line="1488" column="32" selection-start-line="1488" selection-start-column="32" selection-end-line="1488" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -70,6 +81,7 @@
       <list>
         <option value="$PROJECT_DIR$/login.html" />
         <option value="$PROJECT_DIR$/sign-up.html" />
+        <option value="$PROJECT_DIR$/all-rooms.html" />
         <option value="$PROJECT_DIR$/css/app.css" />
       </list>
     </option>
@@ -219,12 +231,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1462973509299</updated>
-      <workItem from="1462973510664" duration="2492000" />
+      <workItem from="1462973510664" duration="2986000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2492000" />
+    <option name="totallyTimeSpent" value="2986000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="6" />
@@ -273,10 +285,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/all-rooms.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="42" column="42" selection-start-line="42" selection-start-column="42" selection-end-line="42" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/app.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-559">
-          <caret line="566" column="4" selection-start-line="566" selection-start-column="4" selection-end-line="566" selection-end-column="4" />
+        <state relative-caret-position="671">
+          <caret line="1488" column="32" selection-start-line="1488" selection-start-column="32" selection-end-line="1488" selection-end-column="32" />
           <folding />
         </state>
       </provider>
