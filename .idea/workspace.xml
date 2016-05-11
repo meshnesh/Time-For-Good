@@ -33,6 +33,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="all-rooms.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/all-rooms.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -46,8 +56,8 @@
       <file leaf-file-name="app.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/app.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="11261">
-              <caret line="1492" column="20" selection-start-line="1492" selection-start-column="20" selection-end-line="1492" selection-end-column="20" />
+            <state relative-caret-position="326">
+              <caret line="1494" column="0" selection-start-line="1494" selection-start-column="0" selection-end-line="1494" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -230,12 +240,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1462973509299</updated>
-      <workItem from="1462973510664" duration="3706000" />
+      <workItem from="1462973510664" duration="4131000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3706000" />
+    <option name="totallyTimeSpent" value="4131000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="6" />
@@ -276,14 +286,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="24" column="66" selection-start-line="24" selection-start-column="66" selection-end-line="24" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/all-rooms.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -292,10 +294,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="24" column="66" selection-start-line="24" selection-start-column="66" selection-end-line="24" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/app.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11261">
-          <caret line="1492" column="20" selection-start-line="1492" selection-start-column="20" selection-end-line="1492" selection-end-column="20" />
+        <state relative-caret-position="326">
+          <caret line="1494" column="0" selection-start-line="1494" selection-start-column="0" selection-end-line="1494" selection-end-column="0" />
           <folding />
         </state>
       </provider>
