@@ -548,9 +548,7 @@ Animation keyframes
 
 
 
-@media only screen and (max-width: 1024px) {
 
-}
 
 
 /*END OF NAVIGATION OF BAR*/
@@ -566,7 +564,6 @@ Animation keyframes
 
 .logmod {
     display: block;
-    position: fixed;
     top: 0;
     right: 0;
     bottom: 0;
@@ -1460,44 +1457,6 @@ body {
 }
 
 
-/*HEADER FOR ROOMS*/
-
-
-/*#main-header {*/
-
-
-/*
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-wrap: wrap;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-    position: fixed;
-    z-index: 3;
-    width: 100%;
-    height: 100px;
-    padding: 2%;
-    clear: both;
-    font-family: Oswald;
-    font-weight: 700;
-    color: #292929;
-    background: #ecf0f1;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    border-left: 0;
-    border-right: 0;
-    border-top: 0;
-}
-*/
 
 #main-header h1 {
     margin: 0;
@@ -1509,3 +1468,18 @@ body {
 
 
 /*******END OF ALL ROOMS CODE*********/
+/*MEDIA QUERIS*/
+@media only screen and (max-width: 1024px) {
+    .logmod {
+        display: block;
+        top: -120px;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        opacity: 1;
+        background: rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+
+
+}
