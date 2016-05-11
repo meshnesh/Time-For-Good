@@ -664,7 +664,8 @@ Animation keyframes
 }
 
 .logmod__tabs li a {
-    width: 50%;
+    text-align: center;
+    width: 100%;
     position: relative;
     float: left;
     text-align: center;

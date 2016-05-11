@@ -1,5 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -9,59 +10,84 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/app.css">
 </head>
-    <title>Login</title>
-</head>
+
 <body>
 
 
+<!--    SIGN-UP -->
 
-<div class="logmod__tab lgm-2">
-    <div class="logmod__heading">
-        <span class="logmod__heading-subtitle">Enter your email and password <strong>to sign in</strong></span>
-    </div>
-    <div class="logmod__form">
-        <form accept-charset="utf-8" action="#" class="simform">
-            <div class="sminputs">
-                <div class="input full">
-                    <label class="string optional" for="user-name">Email*</label>
-                    <input class="string optional" maxlength="255" id="user-email" placeholder="Email" type="email" size="50" />
+<!--SIGN-UP SECTION-->
+<div class="logmod">
+    <div class="logmod__wrapper">
+        <!--            <span class="logmod__close">Close</span>-->
+        <div class="logmod__container">
+            <ul class="logmod__tabs">
+                <li data-tabtar="lgm-2"><a href="#">Login</a></li>
+            </ul>
+            <div class="logmod__tab-wrapper">
+                <div class="logmod__tab lgm-2">
+                    <div class="logmod__heading">
+                        <span class="logmod__heading-subtitle">Enter your email and password <strong>to sign in</strong></span>
+                    </div>
+                    <div class="logmod__form">
+                        <form accept-charset="utf-8" action="#" class="simform">
+                            <div class="sminputs">
+                                <div class="input full">
+                                    <label class="string optional" for="user-name">Email*</label>
+                                    <input class="string optional" maxlength="255" id="user-email" placeholder="Email" type="email" size="50" />
+                                </div>
+                            </div>
+                            <div class="sminputs">
+                                <div class="input full">
+                                    <label class="string optional" for="user-pw">Password *</label>
+                                    <input class="string optional" maxlength="255" id="user-pw" placeholder="Password" type="password" size="50" />
+                                    <span class="hide-password">Show</span>
+                                </div>
+                            </div>
+                            <div class="simform__actions">
+                                <input class="sumbit" name="commit" type="sumbit" value="Log In" />
+                                <span class="simform__actions-sidetext"><a class="special" role="link" href="#">Forgot your password?<br>Click here</a></span>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="logmod__alter">
+                        <div class="logmod__alter-container">
+                            <a href="#" class="connect facebook">
+                                <div class="connect__icon">
+                                    <i class="fa fa-facebook"></i>
+                                </div>
+                                <div class="connect__context">
+                                    <span>Sign in with <strong>Facebook</strong></span>
+                                </div>
+                            </a>
+                            <a href="#" class="connect googleplus">
+                                <div class="connect__icon">
+                                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                </div>
+                                <div class="connect__context">
+                                    <span>Sign in with <strong>Linkedin</strong></span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="sminputs">
-                <div class="input full">
-                    <label class="string optional" for="user-pw">Password *</label>
-                    <input class="string optional" maxlength="255" id="user-pw" placeholder="Password" type="password" size="50" />
-                    <span class="hide-password">Show</span>
-                </div>
-            </div>
-            <div class="simform__actions">
-                <input class="sumbit" name="commit" type="sumbit" value="Log In" />
-                <span class="simform__actions-sidetext"><a class="special" role="link" href="#">Forgot your password?<br>Click here</a></span>
-            </div>
-        </form>
-    </div>
-    <div class="logmod__alter">
-        <div class="logmod__alter-container">
-            <a href="#" class="connect facebook">
-                <div class="connect__icon">
-                    <i class="fa fa-facebook"></i>
-                </div>
-                <div class="connect__context">
-                    <span>Sign in with <strong>Facebook</strong></span>
-                </div>
-            </a>
-            <a href="#" class="connect googleplus">
-                <div class="connect__icon">
-                    <i class="fa fa-linkedin" aria-hidden="true"></i>
-                </div>
-                <div class="connect__context">
-                    <span>Sign in with <strong>Linkedin</strong></span>
-                </div>
-            </a>
         </div>
     </div>
 </div>
 
 
+
+
+<!--    END OF SIGN-UP PAGE-->
+
+
+
+
+<script src="js/vendor/jquery.js"></script>
+<script src="js/vendor/what-input.js"></script>
+<script src="js/vendor/foundation.js"></script>
+<script src="js/app.js"></script>
 </body>
+
 </html>
